@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="pref_syncURL"
+        android:title="@string/post_url"
+        android:summary="@string/post_url_summ"
+        android:defaultValue="@string/post_url_def"
+        android:inputType="textUri"/>
+
+    <SwitchPreference
+        android:key="pref_units"
+        android:title="Units"
+        android:summaryOff="Temperature Units: F"
+        android:summaryOn="Temperature Units: C"
+        android:switchTextOff="F"
+        android:switchTextOn="C"/>
+
+</PreferenceScreen>
